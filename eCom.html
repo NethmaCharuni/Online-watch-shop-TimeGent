@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-500 to-green-500 text-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+
+            
+            <nav>
+                <ul class="flex space-x-6">
+					
+                    <li><a href="#eCom.html" class="hover:underline">Home</a></li>
+					<li><a href="#Products" class="hover:underline">About</a></li>			
+                    <li><a href="#products" class="hover:underline">Products</a></li>
+                    <li><a href="#categories" class="hover:underline">Categories</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+					
+					<a href="login.html" class="fixed bottom-24 right-4 px-4 py-2 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600">
+						Login
+						</a>
+					<a href="cart.html" class="fixed bottom-14 right-4 px-4 py-2 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600">
+						Cart
+						</a>
+					<a href="logout.html" class="fixed bottom-4 right-4 px-4 py-2 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600">
+						LogOut
+						</a>
+
+
+                    
+
+						
+                </ul>
+            </nav>
+			<!-- Logo Section -->
+				<div class="flex items-center space-x-3">
+				<img src="TimeGent.png" alt="TimeGent Logo" class="h-30 w-30 rounded-full">
+				<h1 class="text-2xl font-bold">TimeGent</h1>
+			</div>
+
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="text-center py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Your One-Stop Online Shop</h2>
+            <p class="text-gray-600 text-lg">Discover amazing products at unbeatable prices.</p>
+            <button class="mt-6 px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-12">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-gray-800 mb-6">Featured Products</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Product 1 -->
+               <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.I8tMFtAWoqyD3Chv9OhEdgHaJ1?w=736&h=978&rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">ROLEX</h4>
+						<p class="text-gray-600">$ 12,000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+                <!-- Product 2 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.kGRUehxNb4DEU8MLpHgBlQHaJv?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">OMEGA</h4>
+						<p class="text-gray-600">$ 3000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+                <!-- Product 3 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.OpXeBaW49Jfju50lDGdV7AHaE7?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">TUDOR</h4>
+						<p class="text-gray-600">$ 2500</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+                <!-- Product 4 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/R.9460bccd55262e15cf3df6ad6419513a?rik=zplL48YMaDFTcw&riu=http%3a%2f%2fwww.thejewelleryeditor.com%2fmedia%2fimages_thumbnails%2ffiler_public_thumbnails%2ffiler_public%2f45%2f3a%2f453a9d75-aa09-4cf7-90b0-8e0db5d9cff7%2f2.jpg__1536x0_q75_crop-scale_subsampling-2_upscale-false.jpg&ehk=8BCYbMjbAnfexoxS6dK%2b1w7jh8Gx3UiFl4cDPpVfUTY%3d&risl=&pid=ImgRaw&r=0" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Patek Philippe</h4>
+						<p class="text-gray-600">$ 50,000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 5 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/R.839b7c2c7d4eaee30b5478f5b0739dc9?rik=bosWxFoSJBgwuQ&pid=ImgRaw&r=0" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Cartier</h4>
+						<p class="text-gray-600">$ 4000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 6 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.9cH8WNxdol9MzcxHP0idzwAAAA?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">TAG Heuer</h4>
+						<p class="text-gray-600">$ 2000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 7 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/R.71a6591a801a43e34aa04ed77b93d6db?rik=pA7hPuc0Vhvv9g&pid=ImgRaw&r=0" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Hublot</h4>
+						<p class="text-gray-600">$ 10,000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 8 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.H__wwJNij5gld_v8uMlMHAHaHa?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Panerai</h4>
+						<p class="text-gray-600">$ 5000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 9 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/R.b7e6b8567d93e9f3d25157e3098c5aef?rik=GeB3l%2bKOIMxrUw&pid=ImgRaw&r=0" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">IWC</h4>
+						<p class="text-gray-600">$ 6000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 10 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/R.27efc98eac0729423fd34c9820fbe91e?rik=dvPQutSwu96UvA&pid=ImgRaw&r=0" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Jaeger-LeCoulter</h4>
+						<p class="text-gray-600">$ 9000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 11 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.3vZEUXIt3LTALLWZMhQh3wHaIp?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Breitling</h4>
+						<p class="text-gray-600">$ 4000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+				<!-- Product 12 -->
+                <div class="p-6 bg-white shadow rounded-lg">
+					<div class="mb-4">
+						<img src="https://th.bing.com/th/id/OIP.XdxwbBekQKFRcKBSuuFnXQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3" alt="Product Image" class="w-full h-60 object-cover rounded-lg">
+					</div>
+						<h4 class="text-xl font-semibold text-gray-800">Audemars Pigues</h4>
+						<p class="text-gray-600">$ 36,000</p>
+						<button class="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add to Cart</button>
+				</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-gray-800 mb-6">Shop by Category</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">ROLEX</h4>
+                </div>
+                <div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">OMEGA</h4>
+				</div>
+              <div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">TUDOR</h4>
+                </div> 
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Patek Philippe</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Cartier</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">TAG Heuer</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Hublot</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Panerai</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">IWC</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Jaeger-LeCoulter</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Breitling</h4>
+				</div>
+				<div class="bg-red-800 text-white p-6 rounded-lg text-center">
+                    <h4 class="text-xl font-semibold">Audemars Pigues</h4>
+				</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+            <p class="mb-4">We'd love to hear from you! Reach out for any inquiries or support.</p>
+            <form class="space-y-4 max-w-lg mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-3 rounded-md shadow focus:outline-none">
+                <input type="email" placeholder="Your Email" class="w-full p-3 rounded-md shadow focus:outline-none">
+                <textarea placeholder="Your Message" class="w-full p-3 rounded-md shadow focus:outline-none"></textarea>
+                <button type="submit" class="w-full px-6 py-3 bg-white text-blue-600 font-bold rounded-lg shadow hover:bg-gray-200">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 TimeGent. All Rights Reserved.</p>
+			<p>011-2224536</p>
+        </div>
+    </footer>
+</body>
+</html>
